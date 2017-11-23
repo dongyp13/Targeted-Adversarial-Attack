@@ -1,5 +1,8 @@
 # Targeted-Adversarial-Attack
 
+## Introduction
+We propose a targeted momentum iterative fast gradient sign method. This method won the first place in [NIPS 2017: Targeted Adversarial Attacks Competition](https://www.kaggle.com/c/nips-2017-targeted-adversarial-attack/leaderboard).
+
 ## Method
 We noticed that targeted attacks have little transferability. So we instead only focus on white-box targeted attack. We also use the iterative fast gradient sign approach with momentum. We ensemble five models in our code.
 
